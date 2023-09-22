@@ -1,0 +1,11 @@
+1 ) -firstly create a folder and then git init.
+2 )-auto create a .git folder inside previous created folder.
+3 )-and then check git status.
+4 )- git config --global user.name "username"
+5 )-git config --global user.email email-id.
+6 )-created a file using touch command and check git status.
+7 )-git add --a go into in staging area.
+8 )-git commit -m "".
+9 )-some changes in files then git add --a.
+10 )-git commit -m "".
+11 )-check the git log whole info .
