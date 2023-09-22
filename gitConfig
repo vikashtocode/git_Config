@@ -32,7 +32,16 @@ We add - git remote add origin https://github.com/user_id/git_Config.git .
    f)-$ pbcopy < ~/.ssh/id_ed25519.pub
 # Copies the contents of the id_ed25519.pub file to your clipboard
    g)-add the ssh key on GitHub.
-   
+24 )-to create a new branch git checkout -b devA.
+25. )-created some files or update the code then git add --a and commit.
+26 )-when we switches the branches then git checkout master/devA.
+27 )-to check branches we will use git branch.
+28 )-when we create on remote then git push origin devA.
+29 )-then merge all the branches inside master branch.
+30 )-git merge devA.
+31 )-when we use pull the code on our branch devA then git pull origin master.
+
+
 
 
 
