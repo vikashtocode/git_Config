@@ -19,6 +19,11 @@ Git Configuration
 16 )-git checkout -f.
 17 )-git mv file4.txt file3.txt. (rename).
 18 )-git rm file2.txt (deleted).
+19 )-check git status and then merging the remote our directory we create repository on GitHub then
+We add - git remote add origin https://github.com/user_id/git_Config.git .
+20 )-git push origin master .and check the GitHub what will be update or not.but not directly push in master create a branch then copy the code and update then will add in master branch.
+21 )-
+
 
 
 
