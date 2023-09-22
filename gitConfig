@@ -22,7 +22,18 @@ Git Configuration
 19 )-check git status and then merging the remote our directory we create repository on GitHub then
 We add - git remote add origin https://github.com/user_id/git_Config.git .
 20 )-git push origin master .and check the GitHub what will be update or not.but not directly push in master create a branch then copy the code and update then will add in master branch.
-21 )-
+21 )-but some time access your authentication no other person directly push or updated or code then add ssh key which not any other update or push directly in your repository.
+22. )- then we add ssh key on GitHub account.
+23 )-steps -add ssh key a )-google  (ssh key GitHub) first link open then click on it .
+   b)-ssh-keygen -t ed25519 -C "your_email@example.com" paste your email-id on terminal.
+   c)-eval "$(ssh-agent -s)"  paste on terminal.
+   d)-ssh-add --apple-use-keychain ~/.ssh/id_ed25519.   //run the command without the --apple-use-keychain option.
+   e)-click on Adding a new SSH key to your GitHub account.
+   f)-$ pbcopy < ~/.ssh/id_ed25519.pub
+# Copies the contents of the id_ed25519.pub file to your clipboard
+   g)-add the ssh key on GitHub.
+   
+
 
 
 
