@@ -1,3 +1,6 @@
+Git Configuration 
+
+
 1 ) -firstly create a folder and then git init.
 2 )-auto create a .git folder inside previous created folder.
 3 )-and then check git status.
@@ -9,3 +12,13 @@
 9 )-some changes in files then git add --a.
 10 )-git commit -m "".
 11 )-check the git log whole info .
+12 )-git config --list.
+13 )-git add . Directly go into committed area .
+14 )-git add -a -m "". Directly into committed area.
+15 )-Unstaging the file git restore --staged file.txt.
+16 )-git checkout -f.
+17 )-git mv file4.txt file3.txt. (rename).
+18 )-git rm file2.txt (deleted).
+
+
+
